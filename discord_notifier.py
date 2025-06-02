@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from discord_webhooks import DiscordWebhook, DiscordEmbed
+from discord_webhook import DiscordWebhook, DiscordEmbed
 
 load_dotenv()
 WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK")
