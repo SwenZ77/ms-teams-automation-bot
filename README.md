@@ -1,4 +1,4 @@
-Microsoft Teams Online Class Automation Bot
+*Microsoft Teams Online Class Automation Bot*
 Automate your Microsoft Teams class attendance with robust scheduling, Discord notifications, and camera/mic controls—all from your own timetable!
 
 🎯 Features
