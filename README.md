@@ -22,19 +22,15 @@ Add screenshots here (e.g., login_success.png, meeting_joined.png) to show the b
 
 ⚙️ Setup Instructions
 1. Clone the Repository
-   text
    git clone https://github.com/yourusername/automation-bot.git
    cd automation-bot
 2. Install Requirements
-   text
    pip install -r requirements.txt
 3. Configure Credentials
    Create a .env file in the project root:
-
-text
-EMAIL=your.email@domain.com
-PASSWORD=your_password
-DISCORD_WEBHOOK=https://discord.com/api/webhooks/your_webhook_id/your_webhook_token
+      EMAIL=your.email@domain.com
+      PASSWORD=your_password
+      DISCORD_WEBHOOK=https://discord.com/api/webhooks/your_webhook_id/your_webhook_token
 4. Set Up ChromeDriver
    Download ChromeDriver matching your Chrome version.
 
@@ -44,19 +40,16 @@ Place it in your PATH or the project directory.
 Modify Timetable:
 Add your meetings/classes interactively.
 
-text
 python main.py
 # Choose option 1 and follow prompts
 View Timetable:
 See your current schedule.
 
-text
 python main.py
 # Choose option 2
 Start the Bot:
 The bot will automatically join/leave meetings as scheduled.
 
-text
 python main.py
 # Choose option 3
 📝 Example Timetable Entry
@@ -74,7 +67,7 @@ Day: Monday
 Get instant updates in your Discord channel when the bot joins, leaves, or can’t find a meeting.
 
 🛠️ File Structure
-text
+
 automation-bot/
 ├── main.py
 ├── discord_notifier.py
